@@ -18,6 +18,7 @@ const (
 	Aspect_4x3  Aspect = CommandClose                // 4:3
 	Aspect_16x9 Aspect = CommandMy                   // 16:9
 	Aspect_185  Aspect = "0101S;W9;0101U;W1;0101S\n" // 1.85:1
+	Aspect_20   Aspect = "0101S;W9;0101U;W2;0101S\n" // 2.0:1
 	Aspect_22   Aspect = "0101U;W9;0101D;W2;0101S\n" // 2.2:1
 	Aspect_143  Aspect = "0101D;W9;0101U;W1;0101S\n" // 1.43:1
 )
